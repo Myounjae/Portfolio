@@ -1,0 +1,470 @@
+html{
+    font-size: 10px;
+
+
+}
+
+
+/*
+
+font-family: "neue-haas-unica", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "neue-haas-unica", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+*/
+
+
+/* 배경색 */
+body{
+    background-color: hsla(0, 0%, 91%, 1);
+    /* background-attachment: fixed; */
+
+    /* position: fixed; */
+
+
+    /* overflow: auto; */
+
+
+    /* touch-action: none; */
+
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.row{
+    width: 100%;
+    
+    display: flex;
+    overflow: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mob_menu{
+    display: block;
+}
+
+
+.menu a{
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+
+.body_body a{
+    color: #515151;
+    text-decoration: none;
+
+    text-decoration: underline;
+}
+
+
+a:hover,
+a:focus {
+    color: #515151;
+
+}
+
+
+a::after{
+    transition: all 1.5s;
+}
+
+
+
+
+/* 모바일 용 칼럼 */
+.col_3_mob{width: 30%; background-color: rgba(86, 138, 193, 0.799);}
+
+.col_1_mob{display: block; width: 25%; background-color: rgba(0, 0, 255, 0);}
+/* .col_2_mob{width: 46%; background-color: rgba(255, 166, 0, 0.799);} */
+
+.col_margin{width: 1.5rem; background-color: red;}
+
+
+.col_full_mob{width: 100%; background-color: rgba(205, 134, 63, 0);}
+
+
+
+#h45{height: 40vh; background-color: rgba(172, 255, 47, 0)}
+#h15{height: 15vh; background-color: rgb(128, 119, 0);}
+#h19{height: 19vh; background-color: rgba(113, 0, 128, 0);}
+.h5{height: 5vh; background-color: rgba(255, 68, 0, 0);}
+.h6{height: 6vh; background-color: navy;}
+
+.h10{height: 10vh; background-color:aqua;}
+#h3{height: 5vh; background-color: rgb(0, 0, 0);}
+
+
+
+.col_all_web{width: 100%; background-color: rgba(238, 130, 238, 0);}
+
+.h_footer_mob{height: 5vh; background-color:rgba(0, 255, 255, 0); display: block;}
+.h_footer_web{height: 5vh; background-color:rgba(0, 255, 255, 0); display: none;}
+
+
+.col_1_menu_web{display: none;}
+
+.h70{height: 7rem; }
+
+.move_1_2 p{
+    white-space: nowrap;
+
+}
+
+
+
+.move_1_1{
+    position: relative;
+}
+
+.move_1_2{
+    position: absolute;
+    /*left: 5rem;*/
+    padding-top: 2rem;
+}
+
+.move_2_1{
+    position: relative;
+}
+
+.move_2_2{
+    position: absolute;
+    padding-top: 2rem;
+    left: 100%;
+    transform: translate(-100%);
+}
+
+
+
+
+    
+.menu{
+    font-size: 1.6rem;
+
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #C2C2C2;
+    /* font-size: 1.6rem; */
+
+    position: fixed;
+
+    z-index: 15;
+
+    background-color: rgba(232, 232, 232, 0.4);
+
+    backdrop-filter: blur(12px)
+
+}
+
+
+#about_mob{
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #515151;
+    font-size: 2rem;
+
+    text-align: center;
+
+    display: block;
+}
+
+
+
+#about_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.about_middle{
+    font-weight: 600;
+    font-size: 1.6rem;
+
+
+    line-height: 1.5rem;
+
+}
+
+/* .about_small{
+    font-weight: 400;
+    font-size: 1.6rem;
+    white-space : normal;
+} */
+
+.about_middle span{
+    font-weight: 400;
+    text-align: center;
+}
+
+.mob_footer_1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #C2C2C2;
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+#mob_footer_2{
+    padding-top: 1.5rem;
+
+}
+
+
+.col_copy{
+
+    display: none;
+
+}
+
+
+
+.web_about_description{
+    display: none;
+}
+
+
+
+/* 카피 라이트 - 푸터 */
+.col_copy_web{
+    /* display: block; */
+
+    /* position: fixed; */
+
+    /* bottom:3%;
+    left: 100%;
+    transform: translate(-100%); */
+
+    position: relative;
+
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C2C2C2;
+    font-size: 1.4rem;
+
+    line-height: 120%;
+
+    /* top: 100%;
+    transform: translate(-100%); */
+
+    padding-top: 2.5rem;
+}
+
+
+
+
+
+
+
+/*웹 용*/
+@media all and (min-width:900px)
+{   
+
+
+
+
+
+    /*웹용 칼럼*/
+
+
+    .col_2_mob{display: none;}
+
+    .col_1_mob{display: none;}
+
+
+    .col_1_menu_web{display:block; width: 12.5%; background-color: rgba(0, 247, 255, 0);}
+    .col_1_web{display:block; width: 12.5%; background-color: rgba(0, 255, 17, 0); flex-basis: 1;}
+
+
+    /* 카피 라이트 - 푸터 */
+    .col_copy_web{
+
+        display: none;
+
+        position: fixed;
+
+        bottom:1%;
+        left: 100%;
+        transform: translate(-100%);
+
+        font-family: "neue-haas-unica", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #C2C2C2;
+        font-size: 1.5rem;
+
+        text-align: center;
+    }
+
+
+    /*마진 */
+    .col_margin{width: 2vh; background-color: rgba(255, 166, 0, 0);}
+    .col_margin_web_content{width: 2vh; background-color:rgba(128, 0, 128, 0);}
+
+
+    .h75{height: 5rem;}
+    .h40{height: 100vh;}
+
+
+    .move_1_1{
+        position: relative;
+    }
+
+    .move_1_2{
+        position: absolute;
+        /*left: 5rem;*/
+        padding-top: 0.9rem;
+    }
+
+
+
+    .web_work{
+        position: relative;
+    }
+    
+    .web_work_move{
+        position: absolute;
+        padding-top: 0.9rem;
+        left: 100%;
+        transform: translate(-100%);
+    }
+
+
+
+    
+
+    .menu{
+        font-size: 1.8rem;
+    }
+
+
+
+
+    #about_mob{
+
+        font-size: 2.5rem;
+
+        display: none;
+    }
+
+
+    #clock_1_1{
+        position: relative;
+    }
+
+    #clock_1_2{
+        position: absolute;
+        /*left: 5rem;*/
+        padding-top: 0.9rem;
+        left: 100%;
+        transform: translate(-100%);
+    }
+
+
+    #text_With_Clock{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .web_about_description{
+
+        display: block;
+
+        font-family: "neue-haas-unica", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #4d4e4c;
+        font-size: 2rem;
+        
+        line-height: 2.2rem;
+        
+    }
+
+    #des_white_space{
+        white-space : nowrap;
+    }
+
+
+    .web_about_description p{
+
+        padding-top: 45vh;
+
+    }
+
+    .web_about_description span{
+
+        font-weight: 400;
+        
+
+    }
+
+
+
+
+    .h_footer_mob{display: none;}
+
+    .h_footer_web{
+        height: 5vh; 
+        background-color:rgba(0, 255, 255, 0); 
+        display: block;
+
+        font-family: "neue-haas-unica", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #C2C2C2;
+        font-size: 1.5rem;
+    
+        line-height: 120%;
+
+        text-align: center;
+
+        padding-top: 2.5rem;
+
+
+    }
+
+
+
+    .des_rela{
+        position: relative;
+    }
+
+    .des_absol{
+        position: absolute;
+    }
+
+
+
+
+
+
+}
