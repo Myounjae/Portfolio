@@ -129,7 +129,9 @@ a::after{
 
 .h100{height: 12rem;}
 .h120{height: 12rem;}
-.h200{height: 20rem;}
+.h200{height: 30rem;}
+.h200_short{height: 20rem;}
+.h200_short_short{height: 15rem;}
 .h300{height: 30rem;}
 
 
